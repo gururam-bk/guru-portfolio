@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guru Ramalingam V — AI / ML Engineer (Fresher)</title>
+  <meta name="description" content="Portfolio of Guru Ramalingam V, final-year B.E. CSE student focused on Generative AI, Machine Learning and AI-focused software engineering." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <a class="brand" href="#top" aria-label="Home">GR<span>.</span></a>
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">◐</button>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow"><span class="dot"></span> Open to internships &amp; entry-level roles · Graduating April 2027</p>
+        <h1>Guru Ramalingam <span class="grad">V</span></h1>
+        <p class="role">Aspiring <span id="typed" class="grad"></span><span class="caret">|</span></p>
+        <p class="lead">Final-year Computer Science student building practical AI systems — from privacy-focused LLM threat detection to intent-driven chatbots — with a strong base in Python, machine learning and data analysis.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn" href="#contact">Get in touch</a>
+          <a class="btn ghost" href="https://github.com/gururam-bk" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+        <ul class="stats" aria-label="Highlights">
+          <li><strong>8.45</strong><span>CGPA / 10</span></li>
+          <li><strong>2027</strong><span>Graduation</span></li>
+          <li><strong>4+</strong><span>AI / data projects</span></li>
+          <li><strong>GenAI</strong><span>Focus area</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+      <h2><span class="num">01</span> About</h2>
+      <div class="about-grid">
+        <p>I'm a B.E. Computer Science Engineering student at Parisutham Institute of Technology and Science, drawn to Generative AI, LLM applications and the security side of AI systems. I like turning concepts — RAG, agents, intent classification, risk scoring — into small, working prototypes I can explain end to end.</p>
+        <div class="card targets">
+          <h3>Target roles</h3>
+          <ul class="chips">
+            <li>Generative AI Engineer</li>
+            <li>Machine Learning Engineer</li>
+            <li>AI Engineer</li>
+            <li>AI / ML Intern</li>
+            <li>Software Engineer (AI-focused)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal">
+      <h2><span class="num">02</span> Skills</h2>
+      <div class="skill-grid">
+        <div class="card">
+          <h3>AI &amp; Generative AI</h3>
+          <ul class="chips"><li>Generative AI</li><li>LLM concepts</li><li>Prompt Engineering</li><li>NLP fundamentals</li><li>RAG concepts</li><li>AI Agents concepts</li></ul>
+        </div>
+        <div class="card">
+          <h3>Machine Learning &amp; Data</h3>
+          <ul class="chips"><li>ML fundamentals</li><li>scikit-learn</li><li>Pandas</li><li>NumPy</li><li>SQL</li><li>MySQL</li><li>Excel</li><li>Power BI</li></ul>
+        </div>
+        <div class="card">
+          <h3>Programming &amp; Backend</h3>
+          <ul class="chips"><li>Python</li><li>FastAPI <em>(beginner)</em></li><li>REST APIs <em>(beginner)</em></li><li>MongoDB basics</li><li>DSA <em>(beginner)</em></li></ul>
+        </div>
+        <div class="card">
+          <h3>Tools &amp; Cloud</h3>
+          <ul class="chips"><li>Git</li><li>GitHub</li><li>OpenCV</li><li>Pillow</li><li>AWS fundamentals</li></ul>
+        </div>
+      </div>
+      <p class="note">Proficiency labels are honest: items marked beginner are ones I'm actively building up.</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal">
+      <h2><span class="num">03</span> Projects</h2>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="genai">GenAI / Security</button>
+        <button class="filter" data-filter="ml">ML / NLP</button>
+        <button class="filter" data-filter="data">Data</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project card" data-cat="genai">
+          <div class="tag">Featured · GenAI Security</div>
+          <h3>PrivateShield</h3>
+          <p>Privacy-focused prompt-injection and threat-detection prototype with explainable risk scoring, so a flagged input comes with the reasons behind its score.</p>
+          <ul class="chips small"><li>Python</li><li>OpenCV</li><li>PyTesseract</li><li>Threat detection</li></ul>
+        </article>
+
+        <article class="project card" data-cat="ml">
+          <div class="tag">NLP · Full-stack ML app</div>
+          <h3>AI Student Assistant Chatbot</h3>
+          <p>Intent-driven chatbot for student queries using a TF-IDF + Logistic Regression classifier, with a Streamlit interface, MongoDB storage and bcrypt-secured authentication.</p>
+          <ul class="chips small"><li>TF-IDF</li><li>Logistic Regression</li><li>Streamlit</li><li>MongoDB</li><li>bcrypt</li></ul>
+          <a class="link" href="https://github.com/gururam-bk/AI-Student-Chatbot" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+
+        <article class="project card" data-cat="data">
+          <div class="tag">Data analysis</div>
+          <h3>Weekly Mobile Screen Time Analysis</h3>
+          <p>Analysis of weekly mobile usage patterns to surface habits and trends from raw usage data.</p>
+          <ul class="chips small"><li>Python</li><li>Pandas</li><li>NumPy</li></ul>
+        </article>
+
+        <article class="project card" data-cat="data">
+          <div class="tag">Backend · Database</div>
+          <h3>Contact Manager</h3>
+          <p>Contact management application with create, search, update and delete operations backed by MongoDB.</p>
+          <ul class="chips small"><li>Python</li><li>MongoDB</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section reveal">
+      <h2><span class="num">04</span> Education &amp; Activities</h2>
+      <div class="timeline">
+        <div class="t-item">
+          <span class="t-date">2023 — Apr 2027</span>
+          <h3>B.E. Computer Science Engineering</h3>
+          <p>Parisutham Institute of Technology and Science (Autonomous) · CGPA 8.45 / 10</p>
+        </div>
+        <div class="t-item">
+          <span class="t-date">Workshop</span>
+          <h3>Data Structures &amp; Algorithms</h3>
+          <p>Attended a DSA workshop by GeeksforGeeks at NIT Tiruchirappalli.</p>
+        </div>
+        <div class="t-item">
+          <span class="t-date">2025</span>
+          <h3>Paper presentation — "Optical Fiber with AI"</h3>
+          <p>Presented a technical paper exploring AI applications in optical fiber.</p>
+        </div>
+        <div class="t-item">
+          <span class="t-date">Event</span>
+          <h3>"Power Shield" — Signove</h3>
+          <p>Presented at the Signove event, Anna University Regional Campus.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal">
+      <h2><span class="num">05</span> Contact</h2>
+      <div class="card contact">
+        <p>I'm looking for AI / ML internships and entry-level engineering roles. The fastest way to reach me is GitHub for now — add your preferred email or LinkedIn below.</p>
+        <div class="cta">
+          <a class="btn primary" href="https://github.com/gururam-bk" target="_blank" rel="noopener">github.com/gururam-bk</a>
+          <!-- Add: <a class="btn" href="mailto:YOUR_EMAIL">Email me</a> -->
+          <!-- Add: <a class="btn" href="YOUR_LINKEDIN_URL">LinkedIn</a> -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Guru Ramalingam V · Thanjavur, Tamil Nadu, India</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
